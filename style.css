@@ -9,3 +9,12 @@ td, th{
 border: 1px solid gray;
 padding: 5px 10px;
 }
+
+header a{
+    text-decoration: none;
+    padding: 0% 20px;
+
+}
+header a:hover{
+    background-color: palegreen;
+}
