@@ -12,9 +12,31 @@ padding: 5px 10px;
 
 header a{
     text-decoration: none;
-    padding: 0% 20px;
+
 
 }
-header a:hover{
+.ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: 0% 5px;
+
+}
+nav li:hover{
     background-color: palegreen;
+}
+.link{
+    display: none;
+    position: absolute;
+    background-color: paleturquoise;
+
+}
+nav > ul > li:hover > ul{
+    display: block;
+    padding: 0;
+}
+.link li {
+    margin: 0%;
+    padding: 0%;
 }
